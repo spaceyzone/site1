@@ -1,0 +1,35 @@
+
+body {
+background-image: url("learning.jpg")
+
+}
+.heading {
+    font-family: 'Yellowtail', cursive;
+    font-size: 100px;
+    position: absolute;
+    left: 60%;
+    top: 60%;
+}
+
+.heading2 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 100px;
+    position: absolute;
+    left: 70%;
+    top: 70%;
+}
+
+.login {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+}
+
+#buttonLogin {
+    width: 150px;
+    height: 35px;
+    color: yellow;
+    background-color: rgb(23, 195, 248);
+    
+
+}
