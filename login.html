@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <link href="style3.css" rel="stylesheet">
+    
+</head>
+<body>
+
+   <div class="center-form ">
+        <h1 class="heading">Creative</h1>
+         <h1 class="heading2"> Minds</h1>
+    </div>
+    <form class="login">
+        <div >
+            
+            <span style="display: inline-block; width: 95px"> 
+              <i> <b> USERNAME </b> </i>
+            </span> 
+                : <input type = "text" id="username" value=""> <br>
+            <span style="display: inline-block; width: 95px ">
+                <i> <b> PASSWORD </b> </i>
+               
+            </span> 
+                : <input type = "password" id="password" value=""> <br>
+         </div> 
+
+         <button  id="buttonLogin" onclick="return myFunction();" >LOGIN</button>
+
+        </form>
+
+       
+        <!-- <a href="index.html" class="btn btn-primary">See Profile</a> -->
+
+
+<script>
+    
+    function myFunction() {
+
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+
+        if (username == "yuvraj" && password == "yuvraj" ){
+            window.location = "index.html";
+            return false;
+        
+        }else{
+             alert("error incorrect password");
+        
+        }
+    
+    }
+    
+</script>
+    
+</body>
+</html>
